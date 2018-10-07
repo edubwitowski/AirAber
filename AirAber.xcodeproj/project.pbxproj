@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1800B8711FC1E26C00855EEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1800B8701FC1E26C00855EEC /* LaunchScreen.xib */; };
 		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
 		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
 		7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2401B72275A00B1E765 /* Main.storyboard */; };
-		7B8FA2441B72275A00B1E765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2431B72275A00B1E765 /* Assets.xcassets */; };
 		7B8FA27D1B724A7400B1E765 /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
 		7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
 		7B8FA28C1B72893300B1E765 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA2891B72893300B1E765 /* QRCode.swift */; };
 		7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */; };
+		FA9D315C216A718B00037B4D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D315B216A718B00037B4D /* ExtensionDelegate.swift */; };
+		FA9D315E216A71C800037B4D /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D315D216A71C800037B4D /* FlightInterfaceController.swift */; };
+		FA9D3160216A731800037B4D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB77AE12168FAC200B65225 /* Interface.storyboard */; };
+		FA9D3169216A75AD00037B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB77AF42168FAC400B65225 /* Assets.xcassets */; };
+		FA9D316A216A75B200037B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB77AE42168FAC300B65225 /* Assets.xcassets */; };
 		FAB77AE32168FAC200B65225 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB77AE12168FAC200B65225 /* Interface.storyboard */; };
-		FAB77AE52168FAC300B65225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB77AE42168FAC300B65225 /* Assets.xcassets */; };
 		FAB77AEC2168FAC400B65225 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAB77AEB2168FAC400B65225 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FAB77AF32168FAC400B65225 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB77AF22168FAC400B65225 /* ExtensionDelegate.swift */; };
-		FAB77AF52168FAC400B65225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB77AF42168FAC400B65225 /* Assets.xcassets */; };
 		FAB77AF92168FAC400B65225 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FAB77ADF2168FAC200B65225 /* Watch.app */; };
 		FAB77B012169003600B65225 /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
 		FAB77B022169006500B65225 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
-		FAB77B0421691BE000B65225 /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB77B0321691BE000B65225 /* FlightInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +69,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1800B8701FC1E26C00855EEC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		40113A891F5A4F760089A5C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7B8FA2391B72275A00B1E765 /* AirAber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirAber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B8FA23E1B72275A00B1E765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,15 +79,15 @@
 		7B8FA27F1B724A9900B1E765 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Flight.swift; sourceTree = "<group>"; };
 		7B8FA2891B72893300B1E765 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		FA9D315B216A718B00037B4D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FA9D315D216A71C800037B4D /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		FAB77ADF2168FAC200B65225 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB77AE22168FAC200B65225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		FAB77AE42168FAC300B65225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB77AE62168FAC300B65225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB77AEB2168FAC400B65225 /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB77AF22168FAC400B65225 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		FAB77AF42168FAC400B65225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB77AF62168FAC400B65225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAB77B0321691BE000B65225 /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +111,6 @@
 		7B8FA2301B72275A00B1E765 = {
 			isa = PBXGroup;
 			children = (
-				40113A891F5A4F760089A5C1 /* README.md */,
 				7B8FA23B1B72275A00B1E765 /* AirAber */,
 				7B8FA27B1B724A7400B1E765 /* Shared */,
 				FAB77AE02168FAC200B65225 /* Watch */,
@@ -142,7 +138,6 @@
 				7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */,
 				7B8FA23E1B72275A00B1E765 /* ViewController.swift */,
 				7B8FA2401B72275A00B1E765 /* Main.storyboard */,
-				1800B8701FC1E26C00855EEC /* LaunchScreen.xib */,
 				7B8FA2431B72275A00B1E765 /* Assets.xcassets */,
 				7B8FA2481B72275A00B1E765 /* Info.plist */,
 			);
@@ -188,10 +183,10 @@
 		FAB77AEF2168FAC400B65225 /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				FAB77AF22168FAC400B65225 /* ExtensionDelegate.swift */,
 				FAB77AF42168FAC400B65225 /* Assets.xcassets */,
 				FAB77AF62168FAC400B65225 /* Info.plist */,
-				FAB77B0321691BE000B65225 /* FlightInterfaceController.swift */,
+				FA9D315B216A718B00037B4D /* ExtensionDelegate.swift */,
+				FA9D315D216A71C800037B4D /* FlightInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -260,15 +255,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Mic Pringle";
+				ORGANIZATIONNAME = MCC.edu;
 				TargetAttributes = {
 					7B8FA2381B72275A00B1E765 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = NX7C2QWX95;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					FAB77ADE2168FAC200B65225 = {
 						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = NX7C2QWX95;
 						ProvisioningStyle = Automatic;
 					};
 					FAB77AEA2168FAC400B65225 = {
@@ -303,9 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1800B8711FC1E26C00855EEC /* LaunchScreen.xib in Resources */,
 				7B8FA27D1B724A7400B1E765 /* Flights.json in Resources */,
-				7B8FA2441B72275A00B1E765 /* Assets.xcassets in Resources */,
 				7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB77AE52168FAC300B65225 /* Assets.xcassets in Resources */,
+				FA9D316A216A75B200037B4D /* Assets.xcassets in Resources */,
 				FAB77AE32168FAC200B65225 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,8 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB77AF52168FAC400B65225 /* Assets.xcassets in Resources */,
+				FA9D3160216A731800037B4D /* Interface.storyboard in Resources */,
 				FAB77B012169003600B65225 /* Flights.json in Resources */,
+				FA9D3169216A75AD00037B4D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +343,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB77AF32168FAC400B65225 /* ExtensionDelegate.swift in Sources */,
-				FAB77B0421691BE000B65225 /* FlightInterfaceController.swift in Sources */,
 				FAB77B022169006500B65225 /* Flight.swift in Sources */,
+				FA9D315E216A71C800037B4D /* FlightInterfaceController.swift in Sources */,
+				FA9D315C216A718B00037B4D /* ExtensionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,15 +486,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = AirAber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.AirAber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -506,15 +505,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = AirAber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.AirAber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -532,13 +534,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = Watch/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.AirAber.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -563,12 +565,12 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = Watch/Info.plist;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.AirAber.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -597,7 +599,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.AirAber.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -626,7 +628,7 @@
 				INFOPLIST_FILE = "Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.AirAber.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.AirAber.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

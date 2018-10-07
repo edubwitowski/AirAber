@@ -2,16 +2,17 @@
 //  FlightInterfaceController.swift
 //  Watch Extension
 //
-//  Created by Macbook on 10/6/18.
-//  Copyright © 2018 Mic Pringle. All rights reserved.
+//  Created by Macbook on 10/7/18.
+//  Copyright © 2018 MCC.edu. All rights reserved.
 //
+
 
 import WatchKit
 import Foundation
 
 
 class FlightInterfaceController: WKInterfaceController {
-
+  
   @IBOutlet var flightLabel: WKInterfaceLabel!
   @IBOutlet var routeLabel: WKInterfaceLabel!
   @IBOutlet var boardingLabel: WKInterfaceLabel!
@@ -20,7 +21,7 @@ class FlightInterfaceController: WKInterfaceController {
   @IBOutlet var gateLabel: WKInterfaceLabel!
   @IBOutlet var seatLabel: WKInterfaceLabel!
   
- 
+  
   var flight: Flight? {
     // didSet observer that sets the label text
     didSet {
@@ -45,7 +46,7 @@ class FlightInterfaceController: WKInterfaceController {
   // Initialize this interface control with data contained in the specified context
   override func awake(withContext context: Any?) {
     super.awake(withContext: context)
-   
+    
     flight = Flight.allFlights().first!
-    }
   }
+}
